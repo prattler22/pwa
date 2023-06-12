@@ -1,0 +1,66 @@
+{
+  "dir": "ltr",
+  "lang": "ko",
+  "name": "Dweax Corp",
+  "scope": "/",
+  "display": "fullscreen",
+  "start_url": "/",
+  "short_name": "Dweax",
+  "theme_color": "#FFFFFF",
+  "description": "Dweax corp pwa 테스트 앱입니다.",
+  "orientation": "any",
+  "background_color": "#121212",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "assets/screen.png",
+      "sizes": "386x803",
+      "type": "image/webp",
+      "platform": "mobile",
+      "label": "test image home screen"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "low-latency inking",
+    "fast",
+    "useful AI"
+  ],
+  "icons": [
+    {
+      "src": "assets/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Live Session",
+      "short_name": "Start Live",
+      "description": "Jump direction into starting or joining a live session",
+      "url": "/?startLive",
+      "icons": [
+        {
+          "src": "https://pwabuilder.com/assets/icons/icon_192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "business"
+  ],
+  "related_applications": [
+    {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=net.daum.android.daum",
+        "id": "net.daum.android.daum"
+    },
+    {
+        "platform": "itunes",
+        "url": "https://apps.apple.com/kr/app/kakaotalk/id869223134"
+    }
+    ]
+}
