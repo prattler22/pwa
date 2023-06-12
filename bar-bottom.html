@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: bisque;
+        }
+        .wrap{
+            border:1px solid rebeccapurple;
+        }
+        .box1{
+            height: 20vh;
+            margin-bottom: 5vh;
+            border:1px dashed greenyellow;
+        }
+        .boxLast{
+            background-color: aqua;
+        }
+        .ipt_box{
+            position: fixed;
+            bottom:0;
+            /* display: flex;
+            align-items: flex-end; */
+            width: 100%;
+            background-color: bisque;
+            /* height: 20px; */
+            margin-bottom:1vh;
+            border:1px groove powderblue;
+        }
+        .ipt_txt{
+            /* position: absolute;
+            bottom: 0; */
+            width: 90%;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        1<br>
+        <div class="box1"></div>
+        2<br>
+        <div class="box1"></div>
+        3<br>
+        <div class="box1"></div>
+        4<br>
+        <div class="box1"></div>
+        5<br>
+        <div class="box1 boxLast">마지막</div>
+    </div>
+
+    <div class="ipt_box">
+        댓글<br>
+        <input type="text" class="ipt_txt">
+    </div>
+
+    <script>
+
+    </script>
+</body>
+</html>
